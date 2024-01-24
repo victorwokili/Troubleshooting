@@ -37,5 +37,5 @@ Encountering the zsh command not found: nvm error in the Zsh shell on Mac can be
 
 
 About the author
-[https://linuxhint.com/zsh-command-not-found-reason-solution-mac/](Awais Khan)
+[Awais Khan](https://linuxhint.com/zsh-command-not-found-reason-solution-mac/)
 
