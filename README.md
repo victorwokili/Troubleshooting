@@ -1,4 +1,4 @@
-# Troubleshooting Guide :hammer_and_wrench:
+# :hammer_and_wrench: Troubleshooting Guide :hammer_and_wrench:
 
 Welcome to the troubleshooting section! 🛠️ Here, I'll share insights and solutions to various issues I've encountered throughout my professional career. From Kubernetes woes, DevOps Nightmares, Cloud headaches to macOS quirks, you'll find helpful tips to tackle common challenges.
 
