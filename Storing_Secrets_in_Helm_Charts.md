@@ -29,5 +29,6 @@ helm plugin install https://github.com/jkroepke/helm-secrets --version v4.5.1
 sudo yum install gunpg
 ```
 
-
+``` bash
 helm secrets init --provider=sops
+``` 
