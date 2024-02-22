@@ -143,7 +143,15 @@ it will look like this: <br>
 ### Step 4: Save the Changes
 After editing the file, save the changes. In nano, this is done by pressing `Ctrl + X`, then `Y` to confirm, and finally `Enter`.
 
-### Step 5: Copy the newly added values, rinse and repate to the other node machines (depending on project)
+
+### Step 6: SApplying the Changes
+
+For the hostname change to fully take effect, a system restart is recommended.
+```bash
+sudo reboot
+```
+
+### Step 6: Copy the newly added values, rinse and repate to the other node machines (depending on project)
 ```bash
 172.31.36.178   ACGcontrolserver
 172.31.47.119   ACGworkernode1
