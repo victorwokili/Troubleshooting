@@ -1,4 +1,4 @@
-### Setting Up SSH Key-Based Authentication on Mac
+# Setting Up SSH Key-Based Authentication on Mac
 
 To avoid entering your password every time you connect to your server using Visual Studio on your Mac, you can set up SSH key-based authentication. Follow these steps:
 
@@ -35,7 +35,7 @@ By following these steps, you can set up SSH key-based authentication and avoid 
 <br> <br> <br> <br> <br>
 
 
-### Customizing Terminal Prompt for Different Machines
+# Customizing Terminal Prompt for Different Machines
 
 When working with multiple terminal sessions, it can be helpful to customize the prompt to display a specific identifier for each machine you're logged into. This guide will walk you through the process of modifying your terminal prompt to include a unique identifier, allowing you to easily differentiate between different machines.
 
