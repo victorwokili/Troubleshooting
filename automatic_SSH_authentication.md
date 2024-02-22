@@ -37,6 +37,9 @@ By following these steps, you can set up SSH key-based authentication and avoid 
 
 # Customizing Terminal Prompt for Different Machines
 
+![image](https://github.com/victorwokili/Troubleshooting/assets/18079443/7ad69f0c-2179-4f4b-b843-ccbe8ceca0ac)
+
+
 When working with multiple terminal sessions, it can be helpful to customize the prompt to display a specific identifier for each machine you're logged into. This guide will walk you through the process of modifying your terminal prompt to include a unique identifier, allowing you to easily differentiate between different machines.
 
 #### Step 1: Open Your Shell Configuration File
@@ -47,26 +50,21 @@ Open the `~/.bashrc` or `~/.bash_profile` file in a text editor. You can use the
 nano ~/.bashrc
 ```
 
-or 
 
+
+#### Step 2: Find PS1 Variable: Locate the line that sets the `PS1` variable. It may look something like this:
+
+Locate the line that sets the PS1 variable.  
 ```bash
-nano ~/.bash_profile
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 ```
 
-#### Step 2: Modify the PS1 Variable
-
-Locate the line that sets the PS1 variable. If you don't find it, you can add it at the end of the file. Add the following line to set the prompt format:
+Modify `PS1` Variable: Modify the `PS1` variable to set the prompt format to cloud_user@ControlServer:
 ```bash
-export PS1="\u@ControlServer \W \$ "
+PS1='\[\033[01;32m\]cloud_user@ControlServer\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 ```
 
-Here's what each part of the line does:
-
-   - \u: Inserts the current username.
-   - @ControlServer: Displays the string "ControlServer" as the identifier for the machine.
-   - \W: Shows the current working directory (shortened to just the base directory name).
-   - \$: Displays a $ for regular users and # for the root user.
-
+We effecitively got rid of `{debian_chroot:+($debian_chroot)}` and replaced `\u@\h` with `cloud_user@ControlServer\`
 
 #### Step 3: Save and Exit
 
@@ -87,6 +85,8 @@ source ~/.bash_profile
 ```
 
 ### Step 5: Verify the Prompt
+
+Now, whenever you open a new terminal session, the prompt should display cloud_user@ControlServer as desired.
 
 Open a new terminal window or tab. You should now see the custom prompt with the specified identifier (ControlServer in this example) followed by the username and working directory.
 
