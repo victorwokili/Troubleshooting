@@ -32,7 +32,38 @@ To avoid entering your password every time you connect to your server using Visu
 
 By following these steps, you can set up SSH key-based authentication and avoid entering your password every time you connect to your server using Visual Studio or any other SSH client on your Mac.
 
-<br> <br> <br> <br> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br> <br><br><br>  <br><br><br> <br><br><br>
+---
+<br><br><br> <br><br><br>  <br><br><br> <br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Customizing Terminal Prompt for Different Machines
@@ -121,9 +152,36 @@ After editing the file, save the changes. In nano, this is done by pressing `Ctr
 
 For this example, copy and paste the above to `ACGworkernode1` and `ACGworkernode2`. Obviously, change values as necessary
 
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br><br> <br><br><br>  <br><br><br> <br><br><br>
 ---
 <br><br><br> <br><br><br>  <br><br><br> <br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Method 2 : Using the Shell configuration file
 #### Step 1: Open Your Shell Configuration File
