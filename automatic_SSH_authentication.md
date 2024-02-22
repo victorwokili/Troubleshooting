@@ -121,9 +121,9 @@ After editing the file, save the changes. In nano, this is done by pressing `Ctr
 
 For this example, copy and paste the above to `ACGworkernode1` and `ACGworkernode2`. Obviously, change values as necessary
 
-<br><br><br> <br><br><br> 
+<br><br><br> <br><br><br>  <br><br><br> <br><br><br>
 ---
-<br><br><br> <br><br><br> 
+<br><br><br> <br><br><br>  <br><br><br> <br><br><br>
 
 ## Method 2 : Using the Shell configuration file
 #### Step 1: Open Your Shell Configuration File
