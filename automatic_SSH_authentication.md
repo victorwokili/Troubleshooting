@@ -32,7 +32,7 @@ To avoid entering your password every time you connect to your server using Visu
 
 By following these steps, you can set up SSH key-based authentication and avoid entering your password every time you connect to your server using Visual Studio or any other SSH client on your Mac.
 
-
+<br> <br> <br> <br> <br>
 
 
 ### Customizing Terminal Prompt for Different Machines
