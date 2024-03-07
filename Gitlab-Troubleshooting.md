@@ -91,6 +91,25 @@ To push a local branch to the remote repository:
 git push <remote_name> <local_branch_name>:<remote_branch_name>
 ```
 
+This command pushes your local branch to the specified branch on the remote repository and sets up tracking. For example:
+
+```bash
+git push origin feature:feature
+```
+
+This pushes the local `feature` branch to the `feature` branch on the remote repository named `origin`.
+
+### Setting Upstream Tracking
+
+After pushing the branch to the remote repository, setting up tracking tells Git which remote branch corresponds to your local branch. This facilitates future pulls and pushes by implicitly knowing the target remote branch. The `-u` or `--set-upstream` option accomplishes this:
+
+```bash
+git push -u origin <branch_name>
+```
+
+This sets up tracking between your local branch and the corresponding branch on the remote repository, allowing simplified future operations.
+
+
 ### Handling Authentication Errors
 
 If you encounter authentication issues, ensure your credentials are correct and consider using SSH keys or updating your credentials.
