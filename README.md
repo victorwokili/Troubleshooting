@@ -1,15 +1,24 @@
-# :hammer_and_wrench: Troubleshooting Guide :hammer_and_wrench:
 
-Welcome to the troubleshooting section! 🛠️ Here, I'll share insights and solutions to various issues I've encountered throughout my professional career. From Kubernetes woes, DevOps Nightmares, Cloud headaches to macOS quirks, you'll find helpful tips to tackle common challenges.
+# 🛠️ Enhanced Troubleshooting Guide 🛠️
 
-## Introduction
+## Welcome
 
-This section serves as an introduction to various issues I've faced in my professional career. It covers a range of topics, including:
+Embark on a journey through a curated compendium of troubleshooting wisdom, spanning the realms of Kubernetes, DevOps, Cloud computing, and macOS idiosyncrasies. This guide is forged from real-world challenges and solutions discovered along my professional path.
 
-- **Longhorn Namespace Stuck Terminating in a Kubernetes Cluster**: Troubleshooting steps to resolve issues related to Longhorn namespace stuck in terminating state within a Kubernetes cluster.
+## Highlights
 
-- **Fixing NVM Errors in macOS**: Solutions to fix common errors encountered while using NVM (Node Version Manager) on macOS.
+- **Mastering Git for Efficient Version Control**: I've compiled a tutorial covering Git's fundamentals and intermediate topics. From setting up your local configuration and mastering branching to handling authentication errors and changing remote URLs, this guide equips you with the knowledge to manage your codebase and collaborate seamlessly.
 
-- **Using Global Variables in Value Files of the Child Chart in Helm**: Techniques to utilize global variables effectively in value files of the child chart when using Helm for Kubernetes deployments.
+- **Leveraging LimitRange in Helm Charts for Kubernetes**: At work, I explored how to use `LimitRange` objects within Helm charts to efficiently manage resource allocations for Kubernetes pods. This deep dive breaks down the configuration and integration of `LimitRange` to ensure pods have the necessary resources without overcommitting, offering solutions for common issues encountered in the process.
 
-Stay tuned for more troubleshooting tips and solutions! Feel free to contribute by sharing your own insights and experiences. Together, we can overcome any challenges we encounter in our professional journeys. :rocket:
+- **Resolving Longhorn Namespace Stuck Terminating**: Sharing a personal misstep and its resolution, I delve into the problematic experience of attempting to delete Longhorn from a Kubernetes cluster incorrectly. By missing the essential step of deleting PVCs first, I faced a frustrating deadlock in resource finalizers. I detail the commands and steps taken to patch CRDs, remove finalizers, and ultimately recover from this deadlock, saving valuable time for others facing this predicament.
+
+- **Kubernetes Longhorn Troubleshooting**: Dive deep into fixing Longhorn namespace issues stuck in terminating states.
+
+- **macOS NVM Solutions**: Navigate through common NVM pitfalls on macOS with ease.
+
+- **Helm Chart Global Variables**: Unlock the potential of global variables in Helm chart value files for Kubernetes efficiency.
+
+
+
+[Explore additional insights and solutions in the repository](https://github.com/victorwokili/Troubleshooting), covering a broader spectrum of challenges including cloud configurations, specific Kubernetes deployments issues, and unique DevOps scenarios. Your experiences and insights can significantly contribute to our collective knowledge pool. Let's collaborate and tackle the technological hurdles of our professional journeys together. 🚀
