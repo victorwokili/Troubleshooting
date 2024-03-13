@@ -142,3 +142,28 @@ This command configures Git to use the specified URL for the `origin` remote, in
 ## Conclusion
 
 Git is a powerful tool for version control. By understanding and using branches, commits, and remote repositories, you can efficiently manage your code and collaborate with others. Always ensure your Git configurations are set correctly to avoid common errors.
+
+
+## Git Branch Commands Explained
+
+Understanding Git commands, especially those related to branches, is crucial for effective version control and collaboration in software development. Below is a breakdown of some commonly used Git branch commands and their functionalities.
+
+### `git branch -vv`
+
+This command lists all the local branches in the current repository. The `-vv` flag adds verbose output, showing the last commit on each branch and the upstream branch (if set). This is useful for getting a quick overview of the state of your branches and their tracking relationships.
+
+### `git branch --set-upstream-to=<upstream>`
+
+Use this command to set the upstream (tracking) branch for the current branch. This establishes a link between your local branch and a remote branch, which is helpful for pulling or pushing changes. The `<upstream>` parameter should be in the format `<remote>/<branch>`. For example, to set a local branch to track `main` branch on the `origin` remote, you would use `git branch --set-upstream-to=origin/main`.
+
+### `git branch -a`
+
+This command lists all branches that Git knows about, including local and remote branches. The `-a` flag stands for "all," showing you a comprehensive list of branches. This is particularly useful to see everything at a glance, including branches that may not be checked out locally.
+
+### `git branch -r`
+
+This command lists all remote tracking branches known to your local repository. The `-r` flag stands for "remote," and the output includes branches on all remotes you have added. It's a quick way to see what branches exist on your remotes, such as GitHub or Bitbucket.
+
+### `git branch main -u <remote/branch>`
+
+This command sets the upstream tracking branch for the `main` branch to the specified `<remote/branch>`. The `-u` flag is a shorthand for `--set-upstream-to`. This command is useful for establishing or changing the remote tracking branch for `main`. For example, to set `main` to track the `main` branch on the `origin` remote, use `git branch main -u origin/main`.
