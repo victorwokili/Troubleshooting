@@ -2,7 +2,7 @@
 
 The command `$(dirname $(readlink -f $0))` is used to get the directory path of the currently executing script.
 
-``` bash
+```
 $(dirname $(readlink -f $0))
 ```
 
