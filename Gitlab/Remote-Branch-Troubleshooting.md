@@ -156,6 +156,10 @@ This command lists all the local branches in the current repository. The `-vv` f
 
 Use this command to set the upstream (tracking) branch for the current branch. This establishes a link between your local branch and a remote branch, which is helpful for pulling or pushing changes. The `<upstream>` parameter should be in the format `<remote>/<branch>`. For example, to set a local branch to track `main` branch on the `origin` remote, you would use `git branch --set-upstream-to=origin/main`.
 
+### `git fetch origin`
+
+use the `git fetch` command to fetch changes from the remote repository, this will updater the local registry with any new branches or commits from the remote repository
+
 ### `git branch -a`
 
 This command lists all branches that Git knows about, including local and remote branches. The `-a` flag stands for "all," showing you a comprehensive list of branches. This is particularly useful to see everything at a glance, including branches that may not be checked out locally.
