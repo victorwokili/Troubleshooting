@@ -170,4 +170,4 @@ This command lists all remote tracking branches known to your local repository. 
 
 ### `git branch main -u <remote/branch>`
 
-This command sets the upstream tracking branch for the `main` branch to the specified `<remote/branch>`. The `-u` flag is a shorthand for `--set-upstream-to`. This command is useful for establishing or changing the remote tracking branch for `main`. For example, to set `main` to track the `main` branch on the `origin` remote, use `git branch main -u origin/main`.
+This command sets the upstream tracking branch for the `main` branch to the specified `<remote/branch>`. The `-u` flag is a shorthand for `--set-upstream-to`. This command is useful for establishing or changing the remote tracking branch for `main`. For example, to set `main` to track the `main` branch on the `origin` remote, use `git branch main -u origin/main`.  Example : `git branch localtoremotebranch -u origin/localtoremotebranch` where `localtoremotebranch` is the local braanch and `origin/localtoremotebranch` is the remote branch. This will make the local brach set up to track the remote branch 
