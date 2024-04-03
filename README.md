@@ -17,11 +17,11 @@ Embark on a journey through a curated compendium of troubleshooting wisdom, span
 
 - **Resolving Longhorn Namespace Stuck Terminating**: Sharing a personal misstep and its resolution, I delve into the problematic experience of attempting to delete Longhorn from a Kubernetes cluster incorrectly. By missing the essential step of deleting PVCs first, I faced a frustrating deadlock in resource finalizers. I detail the commands and steps taken to patch CRDs, remove finalizers, and ultimately recover from this deadlock, saving valuable time for others facing this predicament.
 
-- **Kubernetes Longhorn Troubleshooting**: Dive deep into fixing Longhorn namespace issues stuck in terminating states.
+- **Kubernetes Longhorn Troubleshooting**: Dove deep into fixing Longhorn namespace issues stuck in terminating states.
 
-- **macOS NVM Solutions**: Navigate through common NVM pitfalls on macOS with ease.
+- **macOS NVM Solutions**: Navigated through common NVM pitfalls on macOS with ease.
 
-- **Helm Chart Global Variables**: Unlock the potential of global variables in Helm chart value files for Kubernetes efficiency.
+
 
 
 [Explore additional insights and solutions in the repository](https://github.com/victorwokili/Troubleshooting), covering a broader spectrum of challenges including cloud configurations, specific Kubernetes deployments issues, and unique DevOps scenarios. Your experiences and insights can significantly contribute to our collective knowledge pool. Let's collaborate and tackle the technological hurdles of our professional journeys together. 🚀
