@@ -13,7 +13,7 @@ Embark on a journey through a curated compendium of troubleshooting wisdom, span
 
 - **Storing Secrets in Helm Charts Using SOPS**: Security is paramount in Kubernetes environments. This part of the guide details the secure management of secrets in Helm charts, leveraging Mozilla SOPS and the Helm Secrets plugin. The provided real-world advice is crucial for protecting sensitive data within your deployments.
 
-- **Mastering Git for Efficient Version Control**: I've compiled a tutorial covering Git's fundamentals and intermediate topics. From setting up your local configuration and mastering branching to handling authentication errors and changing remote URLs, this guide equips you with the knowledge to manage your codebase and collaborate seamlessly.
+- **Mastering Git for Efficient Version Control**: I've compiled a tutorial covering Git's fundamentals and intermediate topics i've collated over the years. From setting up a local/global configuration and mastering branching to handling authentication errors and changing remote URLs, this guide equips you with the knowledge to manage your codebase and collaborate seamlessly.
 
 - **Resolving Longhorn Namespace Stuck Terminating**: Sharing a personal misstep and its resolution, I delve into the problematic experience of attempting to delete Longhorn from a Kubernetes cluster incorrectly. By missing the essential step of deleting PVCs first, I faced a frustrating deadlock in resource finalizers. I detail the commands and steps taken to patch CRDs, remove finalizers, and ultimately recover from this deadlock, saving valuable time for others facing this predicament.
 
