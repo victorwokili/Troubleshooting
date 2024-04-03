@@ -30,6 +30,12 @@ To avoid entering your password every time you connect to your server using Visu
    - For added security, you can disable password authentication and only allow SSH key-based authentication on your server. 
    - This can be configured in the SSH server configuration file (`sshd_config`).
 
+4. **Sync with a bastion host**:
+   - For ease, you can connect to the bastion host, this will totally avoid having to input any kind of password.  For the code below the name of the bastionis `vic-bastion` 
+   ```bash
+   ssh-copy-id vic-bastion
+   ```
+
 By following these steps, you can set up SSH key-based authentication and avoid entering your password every time you connect to your server using Visual Studio or any other SSH client on your Mac.
 
 
