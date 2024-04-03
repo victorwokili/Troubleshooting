@@ -55,10 +55,10 @@ DynamicForward 2080
 LocalForward 3306 127.0.0.1:3306
 
 
-Host kind-vm2
+Host vic-vm2
 User user
-HostName 192.168.101.98
-ProxyCommand ssh -W %h:%p reach-bastion
+HostName 192.168.111.8
+ProxyCommand ssh -W %h:%p vic-bastion
 
 ```
 
@@ -79,6 +79,6 @@ ProxyCommand ssh -W %h:%p reach-bastion
 
 **kind-vm2 Configuration:**
 - **User:** Login username set as 'user'.
-- **HostName:** Specifies the IP address `192.168.101.98` for the SSH session's target.
-- **ProxyCommand:** Facilitates an SSH connection through another server (`reach-bastion`). The `-W %h:%p` option forwards the SSH protocol to the final destination, enabling seamless connectivity through an intermediate host.
+- **HostName:** Specifies the IP address `192.168.111.8` for the SSH session's target.
+- **ProxyCommand:** Facilitates an SSH connection through another server (`vic-bastion`). The `-W %h:%p` option forwards the SSH protocol to the final destination, enabling seamless connectivity through an intermediate host.
 
