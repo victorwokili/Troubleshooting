@@ -42,7 +42,7 @@ Update your SSH configuration to include necessary port forwarding through a bas
 Host vic-vm1
   User user
   HostName 192.121.111.23
-  ProxyJump reach-bastion
+  ProxyJump vic-bastion
   DynamicForward 2070
   LocalForward 9001 127.0.0.1:9001
 ```
