@@ -48,7 +48,7 @@ Host vic-vm1
 ```
 
 
-or you can SSSH tunnel from your terminal ass
+or you can SSSH tunnel from your terminal as
 ```bash
 ssh vic-vm1 -L 9001:127.0.0.1:9001
 ```
