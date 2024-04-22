@@ -47,6 +47,12 @@ Host vic-vm1
   LocalForward 9001 197.0.0.1:9001
 ```
 
+
+or you can SSSH tunnel from your terminal ass
+```bash
+ssh vic-vm1 -L 9001:127.0.0.1:9001
+```
+
 Connect using the updated SSH configuration:
 
 ```bash
