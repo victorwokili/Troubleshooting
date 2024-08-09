@@ -85,11 +85,16 @@ git commit -m "Your commit message"
 
 ## Pushing Changes to Remote
 
-⚠️⚠️⚠️⚠️⚠️ To push a local branch to the remote repository: ⚠️⚠️⚠️⚠️⚠️
+⚠️⚠️⚠️⚠️⚠️ To push a local branch to the remote repository and set upstream: ⚠️⚠️⚠️⚠️⚠️
 
 ```bash
 git push --set-upstream origin <local_branch_name> 
 ```
+and 
+```bash
+git branch --set-upstream-to=remotes/origin/<remote_branch_name>
+```
+
 or
 
 ```bash
