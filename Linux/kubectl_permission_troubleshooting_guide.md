@@ -108,3 +108,4 @@ By following these steps, you can ensure that `kubectl` commands can be executed
 - Avoid using `sudo` for everyday Kubernetes commands by ensuring user permissions are configured correctly from the start.
 
 With this guide, you can confidently resolve permission-related issues for `kubectl` on RKE2 Kubernetes clusters.
+

@@ -133,3 +133,4 @@ Common actions for Helm:
 - **Unknown Command "init":** This is expected in Helm 3 since the `init` command has been removed.
 
 With these steps, you should now have Helm correctly installed and operational!
+
